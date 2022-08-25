@@ -1,6 +1,4 @@
 syntax = "proto3";
-
-
 package proto;
 
 option go_package = "https://github.com/RomiBareiro/go_server_client/tree/master/proto";

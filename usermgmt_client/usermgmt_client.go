@@ -4,13 +4,11 @@ import (
 	"context"
 	"log"
 
-	proto "github.com/tech-with-moss/go-usermgmt-grpc/proto"
+	proto "github.com/RomiBareiro/go_server_client/tree/master/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
-
-//pb "github.com/tech-with-moss/go-usermgmt-grpc/usermgmt"
 
 const (
 	address = "localhost:50051"

@@ -1,9 +1,3 @@
-module go-usermgmt-grpc
+module github.com/RomiBareiro/go_server_client/tree/master/proto
 
-go 1.16
-
-require (
-	github.com/tech-with-moss/go-usermgmt-grpc v0.0.0-20210707231033-3eea18db21b3
-	google.golang.org/grpc v1.39.0
-	google.golang.org/protobuf v1.27.1
-)
+go 1.19

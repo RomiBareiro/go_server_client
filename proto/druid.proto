@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+
+package proto;
+
+option go_package = "github.com/tech-with-moss/go-usermgmt-grpc/proto";
+
+service DruidManagement {
+    rpc SendDruidQuery(DruidData) returns(AcknowlegeResponse){}
+}
+message AcknowlegeResponse{
+    string response = 1;
+}
+message DruidData{
+    string url = 1;
+    string user = 2;
+    string password = 3;
+    string query = 4;
+}

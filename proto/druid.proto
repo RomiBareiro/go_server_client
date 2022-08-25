@@ -3,7 +3,7 @@ syntax = "proto3";
 
 package proto;
 
-option go_package = "github.com/tech-with-moss/go-usermgmt-grpc/proto";
+option go_package = "https://github.com/RomiBareiro/go_server_client/tree/master/proto";
 
 service DruidManagement {
     rpc SendDruidQuery(DruidData) returns(AcknowlegeResponse){}
